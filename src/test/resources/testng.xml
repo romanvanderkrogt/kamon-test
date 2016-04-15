@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MainSuite" parallel="false" thread-count="1" verbose="2" time-out="8000">
+    <test name="Kamon Test">
+        <packages>
+            <package name="kamon.test"/>
+        </packages>
+    </test>
+</suite>

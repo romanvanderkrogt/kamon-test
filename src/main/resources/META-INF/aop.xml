@@ -1,0 +1,9 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+    <weaver options="-Xreweavable"> <!-- add -verbose -showWeaveInfo to debug -->
+        <include within="kamon.test..*"/>
+    </weaver>
+    <aspects>
+        <!--<aspect name="kamon.test.SomeAspect"/>-->
+    </aspects>
+</aspectj>
